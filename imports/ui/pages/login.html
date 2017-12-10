@@ -1,0 +1,14 @@
+<template name="login">
+  <form class="login-form">
+    <label class="login-title">Login</label><br>
+    <label class="login-input">Username: </label>
+    <input class="login-input" type="text" id="username" placeholder="Username"><br>
+    <label class="login-input">Password: </label>
+    <input class="login-input" type="text" id="password" placeholder="Password"><br>
+    <label id="loginFail" class="failMessage"></label><br>
+    <a href="/createAccount">
+      <input class="login-submit" type="button" value="Create Account">
+    </a>
+    <input id="loginButton" class="login-submit" type="button" value="Login">
+  </form>
+</template>

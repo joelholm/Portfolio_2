@@ -1,0 +1,15 @@
+<template name="people">
+  {{> navbar}}
+  <h1>People Page</h1>
+
+
+  {{#each people}}
+    <div class="people-person">
+      {{username}} <br>
+      <input type="button" class="viewUser" value="View User" username="{{username}}">
+    </div>
+  {{/each}}
+
+
+
+</template>

@@ -1,0 +1,26 @@
+<template name="home">
+
+  {{> navbar}}
+  <div class="main element">
+    <h1>Home Page</h1>
+    <h2>Welcome {{username}}</h2>
+    <input id="newPostButton" type="button" class="button-one element" value="Create New Post"><br>
+    <div id="newPostDiv">
+      <h2 class="element">Create A Post</h2>
+      <textarea id="postBody" class="large-text-area element" rows="8" cols="50"></textarea>
+      <br/>
+      <input id="cancelPostButton" type="button" class="button-one element" value="Cancel">
+      <input id="submitPostButton" type="button" class="button-one element" value="Submit Post">
+    </div>
+    <h3 id="postSuccess" class="element success">Post Created!</h3>
+
+    <h2 id="post-1" class="element">Posts</h2>
+    {{#each posts}}
+      <div class="element post">
+        <h4>{{body}}</h4>
+        <input type="button" value="Delete Post" class="button-one deletePostButton" postBody="{{body}}">
+      </div><br/>
+    {{/each}}
+  </div>
+
+</template>

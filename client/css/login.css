@@ -1,0 +1,34 @@
+.login-form {
+  padding: 40px;
+  border: 4px ridge #0c377c;
+  margin: auto;
+  width: 50%;
+  margin-top: 10%;
+}
+.login-input {
+  margin: 10px;
+  font-size: large;
+  width: 100%;
+}
+.login-submit {
+  margin-top: 3%;
+  font-size: large;
+  border-radius: 5px;
+  outline: 0;
+  width: 100%;
+}
+.login-title {
+  color: #0c377c;
+  font-size: 4em;
+  margin: 10px;
+}
+.failMessage {
+  background-color: #ff4d4d;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #800000;
+  margin-top: 10px;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}

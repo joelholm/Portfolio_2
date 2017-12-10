@@ -1,0 +1,17 @@
+.navbar {
+  background-color: #0c377c;
+  overflow: auto;
+}
+.navbar-element {
+  padding: 20px;
+  float: left;
+  border-right: 1px solid white;
+  color: white;
+  font-family: Verdana, sans-serif;
+  list-style-type: none;
+  user-select: none;
+  text-decoration: none;
+}
+.navbar-element:hover {
+  background-color: #0066cc;
+}

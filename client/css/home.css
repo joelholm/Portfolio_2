@@ -1,0 +1,77 @@
+.main {
+  padding: 30px;
+  visibility: hidden;
+}
+.button-one {
+  padding: 5px;
+  border-radius: 5px;
+  outline:0;
+}
+.button-two {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #0080ff;
+  border: 1px solid black;
+  font-size: large;
+  outline:0;
+}
+.button-three {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #ff1a1a;
+  border: 1px solid black;
+  font-size: medium;
+  outline:0;
+}
+.button-two:active {
+  background-color: #0c377c;
+}
+.deletePostButton {
+  float: right;
+}
+.post-body {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  padding: 10px;
+}
+#submitPostButton {
+  float: right;
+}
+#cancelPostButton {
+  float: left;
+}
+.button-three:active {
+  background-color: #b30000;
+}
+.element {
+  margin: 10px;
+}
+#newPostDiv {
+  background: #f2f2f2;
+  overflow: auto;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+  border: 4px ridge #0c377c;
+}
+.large-text-area {
+  border-radius: 5px;
+  font-family: Verdana, sans-serif;
+  resize: none;
+}
+.success {
+  background-color: #4dff4d;
+  padding: 15px;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.post {
+  background-color: #f2f2f2;
+  padding: 15px;
+  width: 50%;
+  display: inline-block;
+  border: 4px ridge #0c377c;
+  border-radius: 5px;
+}
