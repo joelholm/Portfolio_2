@@ -21,8 +21,7 @@ Meteor.methods({
       Users.insert({
         username: username,
         password: password,
-        posts: [],
-        friends: []
+        posts: []
       });
     }
 

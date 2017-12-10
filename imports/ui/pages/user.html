@@ -1,8 +1,8 @@
 <template name="user">
   {{> navbar}}
-  <h1 class="element user-posts">{{user}}'s Posts</h1>
+  <h1 class="element user-posts">{{username}}'s Posts</h1>
 
-  {{#each posts user}}
+  {{#each posts username}}
     <div class="post element">
       <h4>{{body}}</h4>
     </div>

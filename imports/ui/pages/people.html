@@ -1,12 +1,14 @@
 <template name="people">
   {{> navbar}}
-  <h1>People Page</h1>
+  <h1 class="element">People Page</h1>
 
 
   {{#each people}}
     <div class="people-person">
-      {{username}} <br>
-      <input type="button" class="viewUser" value="View User" username="{{username}}">
+      <h2>{{username}}</h2> <br>
+      <a href="/user/{{username}}">
+        <input type="button" class="viewUser button-one" value="View User">
+      </a>
     </div>
   {{/each}}
 

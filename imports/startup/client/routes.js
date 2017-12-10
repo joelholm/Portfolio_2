@@ -26,9 +26,9 @@ FlowRouter.route('/people',{
   }
 });
 
-FlowRouter.route('/friends',{
+FlowRouter.route('/user/:username',{
   name: 'friends',
-  action() {
-    BlazeLayout.render('friends');
+  action(params, queryParams) {
+    BlazeLayout.render('user',{ username: params.username});
   }
 });
